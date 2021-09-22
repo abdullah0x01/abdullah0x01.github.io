@@ -51,6 +51,29 @@
     max-width: 100%;
     height: auto;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 </style>
 
 <body class="dark-theme">
@@ -127,13 +150,15 @@
     </div>
 
     <div class="footer__inner">
-            <div class="footer__content">
-                <span>Made with  <span style="color: red;">❤</span> by <a href="https://discordapp.com/users/481515123618480148" target="_blank">Abdullah Khawaja</a></span>
+            <div class="footer__content" class="tooltip">
+                <span class="tooltiptext">Discord: hax_3xploit#9949</span>
+
+                <span>Made with  <span style="color: red;">❤</span> by <a href="https://discordapp.com/users/481515123618480148"  alt="hax_3xploit#9949" target="_blank" >Abdullah Khawaja</a></span>
             </div>
     </div>
 </footer>
     
-<script type="text/javascript" alt="hax_3xploit#9949" src="./bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr+aEIutW3m0V5F2+IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
+<script type="text/javascript"  src="./bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr+aEIutW3m0V5F2+IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
 
 
 
