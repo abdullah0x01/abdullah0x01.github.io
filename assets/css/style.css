@@ -54,6 +54,8 @@ nav img{
     float: right;
     width: 30px;
 }
+
+
 .logotext{
     letter-spacing: .1em;
     font-size: 15px;
@@ -168,9 +170,20 @@ i.fa{
     fill: #a9a9b3;
     width: 24px;
 }
+.change2{
+    padding: 1vh 0;
+    fill: #a9a9b3;
+    width: 40px;
+}
+
 .htb:hover{
     fill: chartreuse;
 	transform:scale(1.15);
+}
+
+.edb:hover{
+    fill: coral;
+    transform:scale(1.15);
 }
 .twitter:hover{
     fill: cyan;
