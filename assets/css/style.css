@@ -26,6 +26,10 @@ a{
     fill: black;
 }
 
+#main.light .change2{
+    fill: black;
+}
+
 /* end dark mode */
 /* main section */
 #main{
@@ -193,6 +197,7 @@ i.fa{
 	fill:#E1306C;
 	transform:scale(1.15);
 }
+
 .telegram:hover{
 	fill: skyblue;
 	transform:scale(1.15);
@@ -284,6 +289,10 @@ i.fa{
         font-size: 12px;
     }
     .change{
+        padding: 2vh 0;
+        width: 20px;
+    }
+     .change2{
         padding: 2vh 0;
         width: 20px;
     }
